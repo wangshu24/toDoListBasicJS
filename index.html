@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do Task List</title>
+
+</head>
+<body>
+    <header><h1>To Do Task List</h1></header>
+    <form id="newTaskForm"> 
+        <input type="text" id="newTaskInput" placeholder="Input task here"/>
+        <input type="submit" id="addInput" value="Add task"/>
+    </form>
+    
+
+    <main>
+        <section>
+            <h2>Task List</h2>
+            <div id="tasks">
+                    <div class="task">
+                        <div class="content"> 
+                            <input class="text" type="text" value="Buy milk" readonly />
+                        </div>
+                        <div class="actions">
+                        
+                            <button  class="delete">Delete</button>
+                            <button class="edit">Edit</button>
+                            <button class="done">Done</button>
+                            
+                        </div>
+                    </div>     
+            </div>
+        </section>
+    </main>
+
+    <link rel="stylesheet" href="main.css"/>
+    <script src="main.js"></script>
+
+</body>
+</html>
